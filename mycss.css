@@ -123,10 +123,9 @@ section {
     text-decoration: none;
 }
 
-#home {
-    justify-content: center;
-    width: 100%;
+
+  
+.container-fluid {
     
 }
-
 
