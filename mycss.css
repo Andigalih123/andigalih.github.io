@@ -3,8 +3,12 @@
     background-color: rgb(162, 227, 253);
     text-align: center;
     justify-content: center;
-    
 }
+
+#home {
+    font-family: 'ubuntu';
+}
+
 #projects {
     background-color: #a2d9ff;
 }
@@ -102,6 +106,33 @@ section {
 .keyboard-box:hover .keyboard-img {
     transform: translate3d(-50%, -52%, 50px) rotate(5deg) scale(1.2);
 }
+/* End Keyboards */
+
+/* My Skill */
+
+#skill {
+    min-height: 600px;
+    width: 100% ;
+    
+}
+#skill img {
+    width: 12% ;
+    margin: 10px;
+}
+#skill .card{
+    background-color: black ;
+    height: 370px;
+    color: white;
+}
+#skill .card:hover {
+    background-color: #0c6efd;
+}
+.skill-konten {
+    margin-top: 100px;
+}
+
+/* End Skill */
+
 
 .sci {
     position: relative;
